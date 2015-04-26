@@ -4,7 +4,7 @@
 ## Caches a matrix & its inverse
 
 makeCacheMatrix <- function(m = numeric()) {
-        minv <- Minv
+        minv <- null
         set <- function(y) {
                 m <<- y
                 minv <<- NULL
